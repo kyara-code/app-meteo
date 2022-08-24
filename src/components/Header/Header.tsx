@@ -3,8 +3,6 @@ import { Button } from "@mui/material";
 import FormCap from "../form-cap/form-cap";
 import styles from "./Header.module.css";
 
-// const styles = require("./Header.module.css");
-
 type MyProps = {};
 type MyState = { form: ReactElement; buttonText: string; closedForm: boolean };
 
@@ -19,7 +17,6 @@ class Header extends React.Component<MyProps, MyState> {
   }
 
   changeButtonText = () => {
-    console.log("text changed!");
     let newButtonText = this.state.closedForm
       ? "Close form"
       : "Click here to start";
@@ -28,7 +25,6 @@ class Header extends React.Component<MyProps, MyState> {
   };
 
   renderForm = () => {
-    console.log("clicked!");
     var newForm;
     if (this.state.closedForm) {
       newForm = (

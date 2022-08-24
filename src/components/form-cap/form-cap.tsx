@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import { Button } from "@mui/material";
 import { TextField } from "@mui/material";
 import styles from "./form-cap.module.css";
@@ -11,8 +11,6 @@ import {
   faTemperatureThreeQuarters,
   faLocationDot,
 } from "@fortawesome/free-solid-svg-icons";
-
-// const styles = require("./form-cap.module.css");
 
 // creazione della componente
 
@@ -110,6 +108,9 @@ export default class FormCap extends Component<MyProps, MyState> {
             />
           </div>
           <form onSubmit={this.submit}>
+            {/* per la validazione del form: suppongo ci siano classi adeguate per la gestione,
+            come ad esempio il formName.valid, formName.touched, ecc... nel poco tempo a disposizione
+            non sono riuscita a trovare una documentazione adatta */}
             <TextField
               label="CAP"
               variant="filled"

@@ -7,8 +7,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import styles from "./Content.module.css";
 
-// const styles = require("./Content.module.css");
-
 export default class Content extends React.Component {
   render() {
     return (
