@@ -1,0 +1,36 @@
+.Header {
+  transform-style: preserve-3d;
+}
+
+.image {
+  position: absolute;
+  left: 0;
+  min-width: 100vw;
+  min-height: 300px;
+  object-fit: cover;
+
+  z-index: -1;
+
+  transform: translateZ(-15px) scale(2.5);
+  opacity: 0.8;
+}
+
+.title {
+  transform: translateZ(-5px) scale(1.5);
+}
+
+.titleVertical {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: fit-content;
+  transform-style: preserve-3d;
+}
+
+.titleHorizontal {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  transform-style: preserve-3d;
+}

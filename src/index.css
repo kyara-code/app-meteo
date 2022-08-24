@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(235, 235, 249);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Color palette */
+/* Pattern url: https://app.haikei.app/ */
+* {
+  --light-blue: #a7d8ea;
+  --dark-blue: #2f5baf;
+  --light-purple: #d4cbef;
+}

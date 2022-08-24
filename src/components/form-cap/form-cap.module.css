@@ -1,0 +1,34 @@
+.form {
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: fit-content;
+  height: fit-content;
+  padding: 1.5em;
+  background-color: white;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 500px) {
+  .form {
+    width: 70vw;
+  }
+}
+
+.closeIcon {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form form * {
+  margin: 5px 0;
+}
